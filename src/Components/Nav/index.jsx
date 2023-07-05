@@ -13,7 +13,10 @@ function NavBar() {
                     <Link to={`/`}>Home</Link>
                 </li>
                 <li>
-                    <Link to={`/posts`} className={styles.btn}>Posts</Link>
+                    <Link to={`/posts`} className={navStyle.home}>Posts</Link>
+                </li>
+                <li>
+                    <Link to={`/readme`} className={styles.btn}>Readme</Link>
                 </li>
             </ul>
         </nav>
