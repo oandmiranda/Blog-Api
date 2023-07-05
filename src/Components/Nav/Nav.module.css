@@ -1,0 +1,47 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 5rem;
+    line-height: 5rem;
+    padding-inline: 50px;
+    background: linear-gradient(to right, #046b7e, #013a35);
+}
+
+.navbar h2 {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 2.3rem;
+    transition: 0.3s;
+}
+
+.navbar h2:hover {
+    font-size: 2.5rem;
+}
+
+.navbar ul {
+    display: flex;
+    gap: 2rem;
+}
+
+.newbtn {
+    font-weight: bold;
+    padding: .5rem 1rem;
+    border: 1px solid #fff;
+    border-radius: 2rem;
+}
+
+/* media querie */
+@media(max-width: 400px) {
+    .navbar {
+        justify-content: space-around;
+        gap: 10px;
+        min-width: 270px;
+        padding-inline: 10px;
+    }
+    .navbar h2 {
+        font-size: 2.1rem;
+    }
+    .home {
+        display: none;
+    }
+}

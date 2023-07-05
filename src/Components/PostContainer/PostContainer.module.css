@@ -1,0 +1,39 @@
+.container {
+    max-width: 1000px;
+    width: 100%;
+    margin: 2rem auto;
+    padding: 0 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container h1 {
+    padding-bottom: 1.5rem;
+    font-size: 2.5rem;
+    display: flex;
+    justify-content: center;
+}
+
+form {
+    max-width: 500px;
+    width: 100%;
+}
+
+.formControl {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1rem;
+}
+
+.formControl label {
+    margin-bottom: .5rem;
+}
+
+.formControl input,
+.formControl textarea {
+    border: none;
+    border-radius: 5px;
+    padding: 0.7rem;
+    color: #000;
+}

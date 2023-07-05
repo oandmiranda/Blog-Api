@@ -1,0 +1,48 @@
+.container {
+    max-width: 1000px;
+    width: 100%;
+    margin: 2rem auto;
+    padding: 0 2rem;
+}
+
+.container h1 {
+    padding-bottom: 1.5rem;
+    font-size: 2.5rem;
+    display: flex;
+    justify-content: center;
+}
+
+.posts {
+    display: flex;
+    flex-direction: column;
+    padding-block: 1rem;
+    border-bottom: 1px dotted #fff;
+}
+
+.posts h2 {
+}
+
+.posts h2::first-letter {
+    text-transform: uppercase;
+}
+
+.btn {
+    background-color: #fff;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    padding: .5rem;
+    max-width: 100px;
+    width: 100%;
+    font-size: 1.1rem;
+    color: #000;
+    text-align: center;
+    border: 1px solid #fff;
+    border-radius: 6px;
+    transition: 0.3s;
+}
+
+.btn:hover {
+    background-color: #013a35;
+    color: #fff;
+    cursor: pointer;
+}
