@@ -1,6 +1,5 @@
 import { Link } from "react-router-dom";
 import navStyle from "./Nav.module.css";
-import styles from "../ApiContainer/container.module.css";
 
 function NavBar() {
     return (
@@ -9,14 +8,14 @@ function NavBar() {
                 <Link to="/">BlogApi</Link>
             </h2>
             <ul>
-                <li className={navStyle.home}>
+                <li className={navStyle}>
                     <Link to={`/`}>Home</Link>
                 </li>
                 <li>
-                    <Link to={`/posts`} className={navStyle.home}>Posts</Link>
+                    <Link to={`/posts`} className={navStyle}>Posts</Link>
                 </li>
                 <li>
-                    <Link to={`/readme`} className={styles.btn}>Readme</Link>
+                    <Link to={`/readme`} className={navStyle}>Readme</Link>
                 </li>
             </ul>
         </nav>
