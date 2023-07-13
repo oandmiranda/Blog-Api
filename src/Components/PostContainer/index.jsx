@@ -11,7 +11,9 @@ export default function PostContainer() {
 
     const createPost = (e) => {
         e.preventDefault();
+
         console.log(title, body);
+        
         const newPost = { title, body, useriD: 1 };
         axiosCustom.post('/posts', {
             body: newPost,  

@@ -13,7 +13,6 @@ const ContainerApi = () => {
       axiosCustom.get("/posts")
       .then((response) => {
         setPosts(response.data);
-        console.log(response);
       })
       .catch((error) => console.log('deu ruim', error));
     }
@@ -34,6 +33,5 @@ const ContainerApi = () => {
         </div>
     );
   }
-
 
   export default ContainerApi;
